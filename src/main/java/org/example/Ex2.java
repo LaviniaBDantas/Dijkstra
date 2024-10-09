@@ -23,8 +23,6 @@ class Ex2 {
         grafo.addAresta('T', 'D', 4);
         grafo.addAresta('D', 'X', 3);
 
-        //grafo.menorCaminhoDjikstra('G');//calcula todos
-
         grafo.menorCaminhoDijkstra('G', 'O');
         grafo.menorCaminhoDijkstra('G', 'E');
         grafo.menorCaminhoDijkstra('G', 'X');
